@@ -7,6 +7,7 @@ program = []
 
 with open('02-input', 'r') as raw:
     intcode = [int(x) for x in raw.readline().strip().split(',')]
+
 def part1():
     intcode[1] = 12
     intcode[2] = 2
